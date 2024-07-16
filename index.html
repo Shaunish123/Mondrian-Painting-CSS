@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Painting</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+
+        .container {
+            width: 828px;
+            height: 620px;
+            display: grid;
+            gap: 16px;
+            background-color: black;
+            grid-template-rows: 52px 140px 140px 78px 48px 46px auto;
+            grid-template-columns: 76px 68px 110px 190px 130px 130px auto;
+        }
+
+        .box {
+            background-color: #F0F1EC;
+        }
+
+        .a {
+            grid-column: span 2;
+        }
+
+        .b {
+            grid-column: span 2;
+        }
+
+        .c {
+            grid-column: span 2;
+            background-color: yellow;
+        }
+
+        .d {
+            grid-row: span 4;
+        }
+
+        .f {
+            background-color: red;
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+
+        .g {
+            background-color: yellow;
+            grid-column: span 2;
+        }
+
+        .h {
+            grid-row: span 2;
+        }
+
+        .k,
+        .o {
+            grid-column: span 2;
+            background-color: black;
+        }
+
+        .m {
+            grid-column: span 2;
+        }
+
+        .n {
+            grid-row: span 3;
+            background-color: yellow;
+        }
+
+        .q {
+            grid-row: span 2;
+            grid-column: span 2;
+            background-color: blue;
+        }
+
+        .r {
+            grid-row: span 3;
+            background-color: red;
+        }
+
+        .s {
+            grid-area: span 2/ span 2;
+        }
+
+        .t {
+            background-color: black;
+        }
+
+        .u {
+            grid-column: span 3;
+        }
+
+    </style>
+</head>
+
+
+<body>
+        <div class="container">
+            <div class="box a"></div>
+            <div class="box b"></div>
+            <div class="box c"></div>
+            <div class="box d"></div>
+            <div class="box e"></div>
+            <div class="box f"></div>
+            <div class="box g"></div>
+            <div class="box h"></div>
+            <div class="box i"></div>
+            <div class="box j"></div>
+            <div class="box k"></div>
+            <div class="box l"></div>
+            <div class="box m"></div>
+            <div class="box n"></div>
+            <div class="box o"></div>
+            <div class="box p"></div>
+            <div class="box q"></div>
+            <div class="box r"></div>
+            <div class="box s"></div>
+            <div class="box t"></div>
+            <div class="box u"></div>
+        </div>
+</body>
+
+</html>
